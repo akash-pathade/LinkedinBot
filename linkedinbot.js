@@ -10,7 +10,11 @@ Linkedin = {
         totalRequestsSent: 0,
         // set to false to skip adding note in invites
         addNote: true,
-        note: "Hey {{name}}, I would like to connect regarding any opportunity, which suits my profile. Experience: 2 years (Product-based company). Primary Skills: Java, Spring MVC, Spring boot, Microservices, Docker, Mysql. Secondary skills: GCP, Gradle/Maven, appium, ELK stack, python, Postman"
+        note: `Hey {{name}},
+I would like to connect regarding any opportunity, which suits my profile.
+Experience: 2 years (Product-based company).
+Primary Skills: Java, Spring MVC, Spring boot, Microservices, Docker, Mysql. 
+Secondary skills: GCP, Gradle/Maven, appium, ELK stack, python, Postman`
     },
     init: function (data, config) {
         console.info("INFO: script initialized on the page...");
